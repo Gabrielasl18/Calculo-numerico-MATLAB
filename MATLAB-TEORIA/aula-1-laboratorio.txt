@@ -1,0 +1,55 @@
+
+
+Cria uma matriz 
+x = linspace(1,50,10)
+
+C = [1 2 3; 4 5 6; 7 8 9]
+
+________
+
+Mostra o valor que tá no índice 1
+X(1)
+
+________
+
+Exibe uma sequencia de 10 elementos onde o primeiro é 1 e o último é 50
+x = linspace(1,50,10)
+
+________
+
+Exibe a linha com maiores valores
+max(X)
+
+________
+
+Descobrir se o resto da divisão é zero, ou seja, se um número é par
+Mod(10,2) 
+
+________
+
+Criar gráfico como módulo
+plot(x, abs(x))
+
+________
+
+Criar gráfico como exponencial
+plot(x, exp(x))
+
+________
+
+Criar gráfico como raiz quadrada
+plot(x, sqrt(x))
+
+________
+
+
+Criar as 3 funções juntas
+plot(x, sqrt(x), x, abs(x), x, exp(x))
+
+
+
+
+exercício
+
+>> plot(x,x.^2)
+>> plot(x, abs(x), x, x.^2)
