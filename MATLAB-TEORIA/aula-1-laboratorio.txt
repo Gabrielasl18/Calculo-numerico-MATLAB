@@ -46,10 +46,15 @@ ________
 Criar as 3 funções juntas
 plot(x, sqrt(x), x, abs(x), x, exp(x))
 
+________
 
 
-
-exercício
+Exercício
 
 >> plot(x,x.^2)
 >> plot(x, abs(x), x, x.^2)
+
+
+Site para simular MATLAB sem baixar
+
+octave-online.net
